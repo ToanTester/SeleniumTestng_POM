@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Parameters" verbose="1">
+
+    <test name="Run class Parameters1">
+        <parameter name="number1" value="5"/>
+        <parameter name="message1" value="Hello annotations @Parameters !"/>
+        <classes>
+            <class name="anhtester.com.testcases.TestParameters" />
+        </classes>
+    </test>
+
+    <test name="Run class Parameters2">
+        <parameter name="number1" value="5"/>
+        <parameter name="message1" value="Hello annotations @Parameters !"/>
+        <classes>
+            <class name="anhtester.com.testcases.TestParameters" />
+        </classes>
+    </test>
+</suite>
