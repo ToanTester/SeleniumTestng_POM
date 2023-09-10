@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Parallel Classes" verbose="1">
+
+    <test name="Integration Test Parallel Classes" parallel="classes" thread-count="10">
+        <classes>
+            <class name="anhtester.com.testcases.learnParallel.Chrometest" />
+            <class name="anhtester.com.testcases.learnParallel.Edgetest" />
+        </classes>
+    </test>
+</suite>
